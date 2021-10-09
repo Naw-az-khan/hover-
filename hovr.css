@@ -1,0 +1,35 @@
+.heading{
+    background-color: blue;
+    color: cornsilk;
+}
+.para{
+    background-color: crimson;
+    color: cyan;
+    font-size: 35px;
+}
+.para:hover{
+background-color: darkkhaki;
+color: darkslategrey;
+}
+.heading:hover{
+    background-color: burlywood;
+    color: chartreuse;
+}
+input:focus{
+ background-color: darkviolet;
+ color: white;
+}
+
+div::before {
+    content: "CSS" ;
+}
+div::after{
+    content: "HTML";
+}
+p::first-letter{
+    font-weight: bolder;
+    color: chartreuse;
+}
+p::selection{
+    color: black;
+}
